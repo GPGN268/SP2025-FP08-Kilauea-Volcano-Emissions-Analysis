@@ -3,5 +3,4 @@ Final project repo for volcanic flow hazards
 
 ## Group members: 
 - Clara Pugh
-- Lillian Hanson
-
+- Lillian J Hanson
