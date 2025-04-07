@@ -45,5 +45,8 @@ Data from Kilauea relating to SO2 emissions:
 Lava flow viscosity relating to minerology:
 - https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jgrf.20111
 
+### Anticipated Challenges:
+- The lava flow data is GIS shapefiles in .xml format, which we have not used before, so it could be challenging initally to figure out how to open and work with that data
+
 ### References:
 [1] https://www.usgs.gov/volcanoes/kilauea
