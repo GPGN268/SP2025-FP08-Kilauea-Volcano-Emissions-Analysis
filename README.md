@@ -16,9 +16,8 @@ How are the size/volumes of lava flows and lava plumes related?
 ### Datasets you will use (with links, if available):
 
 Datasets with GIS shapefiles of lava flows at Kīlauea, can be analyzed with GeoPandas:
-- https://www.sciencebase.gov/catalog/item/5cdd9871e4b029273746360f
-- https://www.sciencebase.gov/catalog/item/5af60d04e4b0da30c1b5fa5a
-- https://www.sciencebase.gov/catalog/item/597230e4e4b0ec1a4885edc1
+- [June 2014 - June 2016](https://www.sciencebase.gov/catalog/item/5cdd9871e4b029273746360f)
+- [May 2016 - May 2017](https://www.sciencebase.gov/catalog/item/597230e4e4b0ec1a4885edc1)
 
 This dataset has volcanic plume data also from Kīlauea, formatted in csv files that are accessed with pandas: 
 - https://www.sciencebase.gov/catalog/item/6000a312d34e592d8671f57f
@@ -46,7 +45,7 @@ Lava flow viscosity relating to minerology:
 - https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jgrf.20111
 
 ### Anticipated Challenges:
-- The lava flow data is GIS shapefiles in .xml format, which we have not used before, so it could be challenging initally to figure out how to open and work with that data
+- The lava flow data is GIS shapefiles, which is not a format we have not used before, so it could be challenging initally to figure out how to open and work with that data
 
 ### References:
 [1] https://www.usgs.gov/volcanoes/kilauea
