@@ -8,7 +8,7 @@
 This project will analyze geohazards associated with the Kīlauea volcano. The analysis will specifically focus on lava-flow-induced hazards. 
 
 ### Some introductory background information:
-Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems off of Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano. It most recently erupted in June 2024. [1] 
+Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems from Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano. It most recently erupted in June 2024. [1] 
 
 ### Problem statement, question(s) and/or objective(s):
 How are the size/volumes of lava flows and lava plumes related?
@@ -25,8 +25,6 @@ This dataset has volcanic plume data also from Kīlauea, formatted in csv files 
 Data from Kilauea relating to SO2 emissions: 
 - https://www.sciencebase.gov/catalog/item/5abb448be4b081f61abb68ae
 
-
-
 ### Tools/packages you’ll use (with links):
 - [Numpy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
@@ -34,18 +32,18 @@ Data from Kilauea relating to SO2 emissions:
 - [Pandas](https://pandas.pydata.org/)
 
 ### Planned methodology/approach:
-- Analyze lava flows over time at different time periods
-- Compare this data numerically to lava plume/gas release volume for the same eruptions
+- We will analyze lava flows in relation to time at the Kīlauea volcano. 
+- We will compare this data numerically to lava plume/gas release volume for the same eruptions.
 
 ### Expected outcomes:
-- We expect that higher volumes of lava flow would be correlated with higher volumes of gas emissions and more/higher volumes of volcanic plumes
+- We expect that higher volumes of lava flow would be correlated with higher volumes of gas emissions and more/higher volumes of volcanic plumes.
 
 ### Any other relevant information, images/tables, references, etc.:
-Lava flow viscosity relating to minerology:
+Lava flow viscosity relating to mineralogy:
 - https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jgrf.20111
 
 ### Anticipated Challenges:
-- The lava flow data is GIS shapefiles, which is not a format we have not used before, so it could be challenging initally to figure out how to open and work with that data
+- The lava flow data is GIS shapefiles, which is not a format we have not used before, so it could be challenging initially to figure out how to open and work with that data
 
 ### References:
 [1] https://www.usgs.gov/volcanoes/kilauea
