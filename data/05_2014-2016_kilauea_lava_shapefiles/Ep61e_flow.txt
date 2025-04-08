@@ -1,0 +1,478 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Tim R. Orr
+        Originator: Matthew R. Patrick
+        Publication_Date: 2019
+        Title: GIS shapefiles for the June 27th lava flow at Kīlauea volcano, Hawaiʻi, June 2014–June 2016
+        Geospatial_Data_Presentation_Form: vector digital data
+        Publication_Information:
+          Publication_Place: Reston, VA
+          Publisher: U.S. Geological Survey
+        Other_Citation_Details: Suggested citation: Orr, T.R., and Patrick, M.R., 2019, GIS shapefiles for the June 27th lava flow at Kīlauea volcano, Hawaiʻi, June 2014–June 2016: U.S. Geological Survey data release, https://doi.org/10.5066/P9LD5W2H.
+        Online_Linkage: https://doi.org/10.5066/P9LD5W2H
+    Description:
+      Abstract: These feature data are part of a larger dataset containing shapefiles and associated metadata showing evolution of the "June 27th" lava flow (Puʻu ʻŌʻō eruptive episode 61e) that was active at Kīlauea volcano from June 27, 2014, to June 8, 2016. The full dataset contains (1) an attributed polyline shapefile and (2) an attributed polygon shapefile with features that represent the outline and extent of the flow on 35 different dates. The dataset also contains (3) an attributed polyline shapefile with features that represent the eruptive fissures associated with this episode of the eruption and the principle ground cracks that were occupied by lava during lava flow emplacement, and (4) an attributed polyline shapefile with features representing the mapped extent of the active lava tube on six different dates. In total, this dataset contains four shapefiles, each with an associated  metadata files in .txt and .xml formats. The geologic lines (lava flow contacts, the eruptive fissures, the ground cracks, and the lava tubes) were mapped on the ground or during helicopter reconnaissance flights using a handheld GPS, were digitized from satellite imagery or orthorectified aerial imagery (orthomosaics), were provided by the U.S. Geological Survey's Advanced Systems Center, or were (in a few instances) inferred. The relevant sources for each feature are assigned in the metadata attribute tables, but a lookup table for the data sources (DataSource.txt) is also included for convenience.
+      Purpose: The full dataset shows the evolution of the "June 27th" lava flow, which was active from June 27, 2014, to June 8, 2016, and threatened the town of Pāhoa, on the Island of Hawaiʻi. The dataset also includes the eruptive fissures, the principle ground cracks that were occupied by lava during emplacement of the June 27th flow, and the lava tube system that developed. This dataset and its associated metadata (for example, this document) were subjected to the same review standard that applies to all U.S. Geological Survey reports.  The review included checks for topological consistency, tolerances, attribute frequencies and statistics, projection, and geographic extent. The reviewers checked the metadata for completeness and accuracy. The dataset was compiled in ArcMap, a commercial Geographic Information System (GIS) by Environmental Systems Research Institute (Esri) of Redlands, California.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Range_of_Dates/Times:
+          Beginning_Date: 20140627
+          Ending_Date: 20160608
+      Currentness_Reference: The date range indicates the starting and ending dates of eruptive activity. These feature data show ground condition on specific dates during the period of lava flow emplacement.
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -155.112373
+        East_Bounding_Coordinate: -154.951196
+        North_Bounding_Coordinate: 19.507728
+        South_Bounding_Coordinate: 19.391273
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: ISO 19115 Topic Categories
+        Theme_Keyword: geoscientificInformation
+      Theme:
+        Theme_Keyword_Thesaurus: USGS Thesaurus
+        Theme_Keyword: geology
+        Theme_Keyword: geologic maps
+        Theme_Keyword: volcanic activity
+        Theme_Keyword: field inventory and monitoring
+        Theme_Keyword: maps and atlases
+      Theme:
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword: flow map
+        Theme_Keyword: eruption
+        Theme_Keyword: lava flow
+        Theme_Keyword: June 27th lava flow
+        Theme_Keyword: episode 61e
+      Place:
+        Place_Keyword_Thesaurus: Common geographic areas
+        Place_Keyword: Hawaii
+        Place_Keyword: Pahoa South
+        Place_Keyword: Pahoa North
+        Place_Keyword: Kalalua
+      Place:
+        Place_Keyword_Thesaurus: Geographic Names Information System
+        Place_Keyword: Island of Hawaiʻi
+        Place_Keyword: Kīlauea
+        Place_Keyword: East Rift Zone
+        Place_Keyword: Puʻu ʻŌʻō
+        Place_Keyword: Pāhoa
+      Temporal:
+        Temporal_Keyword_Thesaurus: None
+        Temporal_Keyword: 20140627
+        Temporal_Keyword: 20140718
+        Temporal_Keyword: 20140729
+        Temporal_Keyword: 20140812
+        Temporal_Keyword: 20140822
+        Temporal_Keyword: 20140903
+        Temporal_Keyword: 20140912
+        Temporal_Keyword: 20140924
+        Temporal_Keyword: 20141003
+        Temporal_Keyword: 20141013
+        Temporal_Keyword: 20141022
+        Temporal_Keyword: 20141031
+        Temporal_Keyword: 20141112
+        Temporal_Keyword: 20141124
+        Temporal_Keyword: 20141204
+        Temporal_Keyword: 20141216
+        Temporal_Keyword: 20141230
+        Temporal_Keyword: 20150113
+        Temporal_Keyword: 20150129
+        Temporal_Keyword: 20150210
+        Temporal_Keyword: 20150227
+        Temporal_Keyword: 20150313
+        Temporal_Keyword: 20150423
+        Temporal_Keyword: 20150521
+        Temporal_Keyword: 20150619
+        Temporal_Keyword: 20150723
+        Temporal_Keyword: 20150821
+        Temporal_Keyword: 20150930
+        Temporal_Keyword: 20151030
+        Temporal_Keyword: 20151203
+        Temporal_Keyword: 20160109
+        Temporal_Keyword: 20160212
+        Temporal_Keyword: 20160325
+        Temporal_Keyword: 20160510
+        Temporal_Keyword: 20160608
+        Temporal_Keyword: 2014
+        Temporal_Keyword: 2015
+        Temporal_Keyword: 2016
+    Access_Constraints: None
+    Use_Constraints: These data should not be used beyond the scale limits implied or imposed by the sources used to generate the dataset. Acknowledgment of the U.S. Geological Survey is requested for products derived from these data.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: U.S. Geological Survey
+          Contact_Person: Tim Orr
+        Contact_Address:
+          Address_Type: mailing
+          Address: 4230 University Drive, Suite 100
+          City: Anchorage
+          State_or_Province: AK
+          Postal_Code: 99508
+          Country: US
+        Contact_Voice_Telephone: 907-786-7497
+        Contact_Electronic_Mail_Address: torr@usgs.gov
+        Contact_Instructions: Preferred contact by e-mail
+    Data_Set_Credit: Compilation of the digital dataset and preparation of the metadata was done by Tim Orr. We thank Evan Thoms (USGS) for reviewing the shapefiles and metadata. We also appreciate the help and data provided by G. Fisher at the USGS National Civil Applications Center, R. Perroy at the Spatial Data Analysis & Visualization (SDAV) laboratory at the University of Hawaiʻi at Hilo, and S. Ambagis from Resource Mapping (REMap) Hawaiʻi. Satellite imagery used for data compilation was acquired under the ©2015 DigitalGlobe NextView License.
+    Security_Information:
+      Security_Classification_System: None
+      Security_Classification: Unclassified
+      Security_Handling_Description: None
+    Native_Data_Set_Environment: Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report: Attributes were assigned, and checked against source materials, by the authors and are accurate to a high level of confidence.
+    Logical_Consistency_Report: Polygon and polyline shapefiles were confirmed to not self-intersect. Flow polygons were confirmed to share edges with flow contact polylines.
+    Completeness_Report: The full dataset includes the extent of the June 27th lava flow (Kīlauea, Hawaiʻi) as mapped on 35 different dates (with each date showing additive changes to flow since the previous date), the trace of the lava tube system as mapped on 6 dates, the location of the fissures associated with the June 27th flow, and the location of the principal ground cracks that were occupied by the June 27th flow during its emplacement.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: The horizontal positional accuracy of lava flow polygons is inherited from the related flow contacts polyline shapefile. See the flow contacts shapefile metadata for details.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: Not applicable.
+    Lineage:
+      Process_Step:
+        Process_Description: The lava flow polygons were generated from the lava flow contacts in ArcGIS. The lava flow polygons share topology with the lava flow contacts.
+        Source_Used_Citation_Abbreviation: See DataSource attribute for each feature.
+        Process_Date: 2019
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: U.S. Geological Survey
+              Contact_Person: Tim Orr
+            Contact_Address:
+              Address_Type: mailing
+              Address: 4230 University Drive, Suite 100
+              City: Anchorage
+              State_or_Province: AK
+              Postal_Code: 99508
+              Country: US
+            Contact_Voice_Telephone: 907-786-7497
+            Contact_Electronic_Mail_Address: torr@usgs.gov
+            Contact_Instructions: Preferred contact by e-mail
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 35
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Planar:
+        Map_Projection:
+          Map_Projection_Name: WGS 1984 UTM Zone 5N
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.9996
+            Longitude_of_Central_Meridian: -153.0
+            Latitude_of_Projection_Origin: 0.0
+            False_Easting: 500000.0
+            False_Northing: 0.0
+        Planar_Coordinate_Information:
+          Planar_Coordinate_Encoding_Method: coordinate pair
+          Coordinate_Representation:
+            Abscissa_Resolution: 0.000000002220024164500956
+            Ordinate_Resolution: 0.000000002220024164500956
+          Planar_Distance_Units: meter
+      Geodetic_Model:
+        Horizontal_Datum_Name: D WGS 1984
+        Ellipsoid_Name: WGS 1984
+        Semi-major_Axis: 6378137.0
+        Denominator_of_Flattening_Ratio: 298.257223563
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: Ep61e_flow
+        Entity_Type_Definition: Polygon shapefile representing the area covered by the June 27th flow on 35 different dates.
+        Entity_Type_Definition_Source: Author
+      Attribute:
+        Attribute_Label: FID
+        Attribute_Definition: Internal feature number.
+        Attribute_Definition_Source: Esri
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+      Attribute:
+        Attribute_Label: Shape
+        Attribute_Definition: Feature geometry.
+        Attribute_Definition_Source: Esri
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Coordinates defining the features.
+      Attribute:
+        Attribute_Label: Volcano
+        Attribute_Definition: The name of the volcano with which these lava flow data are associated. Included in case dataset becomes dissociated from publication record.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Kilauea
+            Enumerated_Domain_Value_Definition: Kīlauea volcano
+            Enumerated_Domain_Value_Definition_Source: Author
+      Attribute:
+        Attribute_Label: Region
+        Attribute_Definition: The general source vent area of the volcano with which these lava flow data area associated. Provides a simple means of discriminating flows based on location and is included for completeness.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: ERZ
+            Enumerated_Domain_Value_Definition: East Rift Zone
+            Enumerated_Domain_Value_Definition_Source: Author
+      Attribute:
+        Attribute_Label: Eruption
+        Attribute_Definition: The eruption to which this dataset is associated. Included for completeness.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Puu Oo
+            Enumerated_Domain_Value_Definition: The 1983–2018 Puʻu ʻŌʻō eruption of Kīlauea volcano, Hawaiʻi.
+            Enumerated_Domain_Value_Definition_Source: Author
+      Attribute:
+        Attribute_Label: Episode
+        Attribute_Definition: The particular episode of the eruption with which this dataset is associated. Included for completeness.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 61e
+            Enumerated_Domain_Value_Definition: Sub-episode "e" of episode 61 (episode 61e) of the Puʻu ʻŌʻō eruption of Kīlauea volcano, Hawaiʻi. The Puʻu ʻŌʻō eruption is subdivided into episodes and sub-episodes.
+            Enumerated_Domain_Value_Definition_Source: Author
+      Attribute:
+        Attribute_Label: Name
+        Attribute_Definition: The informal name of the lava flow with which this dataset is associated. Included for completeness.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: June 27th lava flow
+            Enumerated_Domain_Value_Definition: The informal name for the lava flow from Puʻu ʻŌʻō that started on June 27, 2014, and ended on June 8, 2016. Many lava flows erupted from Puʻu ʻŌʻō have been given informal names. The names are sometimes synonomous with an episode or sub-episode, or may refer to a specific eruptive event within an episode or sub-episode.
+            Enumerated_Domain_Value_Definition_Source: Author
+      Attribute:
+        Attribute_Label: Date
+        Attribute_Definition: Ground condition date. Used to distinguish new area covered by lava since previous ground condition date.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 6/27/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava as mapped on June 27, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 7/18/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from June 27, 2014, to July 18, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 7/29/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from July 18, 2014, to July 29, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 8/12/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from July 29, 2014, to August 12, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 8/22/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from August 12, 2014, to August 22, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 9/3/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from August 22, 2014, to September 3, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 9/12/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from September 3, 2014, to September 12, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 9/24/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from September 12, 2014, to September 24, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 10/3/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from September 24, 2014, to October 3, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 10/13/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from October 3, 2014, to October 13, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 10/22/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from October 13, 2014, to October 22, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 10/31/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from October 22, 2014, to October 31, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 11/12/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from October 31, 2014, to November 12, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 11/24/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from November 12, 2014, to November 24, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 12/4/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from November 24, 2014, to December 4, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 12/16/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from December 4, 2014, to December 16, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 12/30/2014
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from December 16, 2014, to December 30, 2014.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1/13/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from December 30, 2014, to January 13, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1/29/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from January 13, 2015, to January 29, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 2/10/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from January 29, 2015, to February 10, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 2/27/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from February 10, 2015, to February 27, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 3/13/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from February 27, 2015, to March 13, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 4/23/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from March 13, 2015, to April 23, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 5/21/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from April 23, 2015, to May 21, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 6/19/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from May 21, 2015, to June 19, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 7/23/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from June 19, 2015, to July 23, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 8/21/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from July 23, 2015, to August 21, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 9/30/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period fromm August 21, 2015, to September 30, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 10/30/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from September 30, 2015, to October 30, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 12/3/2015
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from October 30, 2015, to December 3, 2015.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1/9/2016
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from December 3, 2015, to January 9, 2016.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 2/12/2016
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from January 9, 2016, to February 12, 2016.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 3/25/2016
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from February 12, 2016, to March 25, 2016.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 5/10/2016
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from March 25, 2016, to May 10, 2016.
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 6/8/2016
+            Enumerated_Domain_Value_Definition: New area covered by lava during the period from May 10, 2016, to June 8, 2016.
+            Enumerated_Domain_Value_Definition_Source: Author
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: U.S. Geological Survey
+          Contact_Person: ScienceBase
+        Contact_Address:
+          Address_Type: mailing
+          Address: Building 810
+          Address: Mail Stop 302
+          Address: Denver Federal Center
+          City: Denver
+          State_or_Province: CO
+          Postal_Code: 80225
+          Country: US
+        Contact_Voice_Telephone: 1-888-ASK-USGS
+        Contact_Electronic_Mail_Address: sciencebase@usgs.gov
+    Distribution_Liability: This dataset has been approved for release and publication by the Director of the U.S. Geological Survey (USGS). Although this dataset has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ESRI Shapefile
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: https://doi.org/10.5066/P9LD5W2H
+      Fees: None. No fees are applicable for obtaining the dataset.
+    Available_Time_Period:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2019
+  Metadata_Reference_Information:
+    Metadata_Date: 2019
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: U.S. Geological Survey
+          Contact_Person: Tim Orr
+        Contact_Address:
+          Address_Type: mailing
+          Address: 4230 University Drive, Suite 100
+          City: Anchorage
+          State_or_Province: AK
+          Postal_Code: 99508
+          Country: US
+        Contact_Voice_Telephone: 907-786-7497
+        Contact_Electronic_Mail_Address: torr@usgs.gov
+        Contact_Instructions: Preferred contact by e-mail
+    Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+    Metadata_Time_Convention: local time
