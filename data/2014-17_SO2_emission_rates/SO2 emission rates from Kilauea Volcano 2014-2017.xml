@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tamar Elias</origin>
+        <origin>Christoph Kern</origin>
+        <origin>Keith Horton</origin>
+        <origin>Harold Garbeil</origin>
+        <origin>A. Jeff Sutton</origin>
+        <pubdate>2018</pubdate>
+        <title>SO2 emission rates from Kilauea Volcano, Hawaii (2014-2017)</title>
+        <geoform>narrative</geoform>
+        <pubinfo>
+          <pubplace>Hilo, HI</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F7794402</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Elias, T., Kern, C., Horton, K. A., Sutton, A. J., Garbeil, H.</origin>
+            <pubdate>2018</pubdate>
+            <title>Measuring SO2 emission rates at Kīlauea Volcano, Hawaii, using an array of upward-looking UV spectrometers, 2014-2017</title>
+            <geoform>journal article</geoform>
+            <pubinfo>
+              <pubplace>Frontiers in Earth Science</pubplace>
+              <publish>Frontiers</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This report documents the SO2 emission rates for the period 2014-2017, from the summit and East Rift Zone eruptions of Kīlauea, along with the wind or plume speed and direction data used to calculate the emission rates. The Kīlauea summit SO2 emission rates are reported every ten seconds, as measured by a novel configuration of 10 fixed, upward looking UV spectrometers (FLYSPEC array), and for days with at least 2 hours of data, the daily means are reported. The plume or wind speeds used to calculate the emission rates are measured by cross correlation of plume features (see William-Jones and others (2006)) or by ground-based anemometer (SDH) and are reported with the emission rates. When the SDH ground based wind speed is used, the plume speed and direction in the summit 10-s emission rate data file is specified with the text identifier ‘SDH’. The SDH wind vector data are included as a separate file. There is a discrepancy of 22% between coincident array measured plume speed and ground-based wind speed. Since wind speed is a direct multiplier in calculating emission rate, when SDH winds are used, the emission rates have been adjusted by +22% (6.3% of valid data). Several data filters have been applied to the FLYSPEC array data, to minimize erroneous values due to instrumental issues or environmental conditions. We present emission rates 1) collected at wind speeds between 2.5 and 20 m/s, as we are confident that these conditions provide a reasonably compact plume that exhibit minimal effects from atmospheric wind shear 2) ≥ 300 metric tonnes per day (t/d), which is the detection limit of the FLYSPEC array. This limit is based on the minimum column amount that we are confident indicates the presence of the plume (350 ppmm), and minimum wind conditions that produce a measurable plume (2.5 m/s). Summit emission rate values &lt;300 t/d are noted as bdl (below detection limit) 3) without random outliers that change by over 50,000 t/d in a single 10-second interval (2 data points). Very high values (tens of thousands of t/d) occur occasionally and may reflect challenging measurement conditions, or actual very high SO2 emissions. 
+
+Traditional campaign road-based traverse SO2 emission rate measurements are reported for the ERZ eruption. These data are measured along the Chain of Craters Road, within Hawaii Volcanoes National Park, and follow the protocol previously documented in USGS Open-File Report 2012-1107. These data are irregularly spaced (days to weeks), as they are dependent on appropriate wind and weather conditions, and staff availability, for successful measurement. The ERZ campaign style emission rate data include the wind vector used to calculate the emission rate value, and a quality code to help identify conditions that may affect the data quality.  
+
+While the FLYSPEC array provides the best estimate of emission rates for the Kīlauea summit for 2014-2017, campaign road-based traverses were also collected at the summit along Crater Rim. Moderate resolution spectra of scattered solar radiation were recorded using a FLYSPEC (2014-2017) or DOAS (2017) instrument mounted on a vehicle in upward-looking geometry. The instrument setup is described in Horton and others (2006), Galle and others (2003), and Elias and others (2012).  
+
+SumRdTraverseSpectra_2014-2017.zip contains dated folders with the individual spectra collected during the plume traverses. The incident spectral radiance was measured between 260 and 410 nm at a spectral resolution of 0.5 nm. Spectral intensity is reported in digital counts, where each count is linearly related to radiance (&gt; 99% linearity).  
+
+For the FLYSPEC instrument, the recorded spectra are saved in a binary file format (scan*.bin files). A new scan*.bin file is saved each time a new set of measurements (typically containing multiple traverses) is begun. Each binary file contains an array of spectra. Each spectrum is composed of an array of 2048 pixel intensities stored in single precision floating point format (4 bytes). Individual spectra can be addressed within a binary file by accessing the file position N × 8192, where N represents the desired spectrum number. 
+
+Each binary file is accompanied by a scan*.txt file saved in ASCII format. The *.txt file contains metadata for each spectrum stored in the associated scan*.bin file. Each row of text represents an individual spectrum. The text columns ascribe each spectrum with an identifying number, year, month, day, hour, minute, second, GPS time, latitude (in degrees), longitude (in degrees), altitude (in meters), and preliminary SO2 column density in ppmm (column 16 and column 19 before and after Apr 9, 2014, respectively). The preliminary SO2 column densities are obtained by comparing incident radiance spectra with spectra obtained with SO2 gas calibration cells inserted into the light path (see Horton (2006) for details). These preliminary values may not be accurate for the summit due to complex light path distributions occurring in and around the dense gas and aerosol clouds present near Kilauea’s Overlook vent. See Elias et. al. (2018) and Kern et. al. (2012) for further details.  
+
+For the mobile DOAS data collection, each spectrum is saved in a *.std ASCII file. These files begin with a 3-line header specifying the file format and the number of spectral channels. Then, 2048 individual upward-looking radiances are reported. The spectral data is followed by metadata associated with each spectrum, including Longitude (decimal degrees), Latitude (decimal degrees), Altitude (m), Exposure Time of the spectral acquisition (ms), and NumScans which reports the number of individual spectra co-added together to form this reported measurement spectrum. The rest of the reported metadata is for internal use when opening the spectra in the freely available DOASIS software (https://doasis.iup.uni-heidelberg.de/bugtracker/projects/doasis/). The mobile DOAS data folders are identified with a DOAS* naming convention. 
+
+Elias, T., Kern, C., Horton, K. A., Sutton, A. J., Garbeil, H. (2018) Measuring SO2 emission rates at Kilauea Volcano, Hawaii USA, 2014-2017, Frontiers in Earth Science 
+
+Elias, T., and A. J., Sutton (2012). Sulfur dioxide emission rates from Kīlauea Volcano, Hawai‘i, 2007–2010. U.S. Geological Survey Open-File Rep. 2012–1107, 25 pp. https://pubs.usgs.gov/of/2012/1107/. 
+
+Galle, B., C. Oppenheimer, A. Geyer. A.J.S. McGonigle, M. Edmonds, L. Horrocks (2003). A miniaturized ultraviolet spectrometer for remote sensing of SO2 fluxes: a new tool for volcano surveillance. Journal of Volcanology and Geothermal Research 119 (1–4):241-254, doi:10.1016/S0377-0273(02)00356-6 
+
+Horton, K. A., Williams-Jones, G., Garbeil, H., Elias, T., Sutton, A. J., Mouginis-Mark, P., et al. (2006). Real-time measurement of volcanic SO2 emissions: validation of a new UV correlation spectrometer (FLYSPEC). Bulletin of Volcanology, 68, 323–327. https://doi.org/10.1007/s00445-005-0014-9 
+
+Kern, C., Deutschmann, T., Werner, C., Sutton, A. J., Elias, T., &amp; Kelly, P. J. (2012). Improving the accuracy of SO2 column densities and emission rates obtained from upward-looking UV-spectroscopic measurements of volcanic plumes by taking realistic radiative transfer into account. Journal of Geophysical Research, 117, D20302. https://doi.org/10.1029/2012JD017936 
+
+Williams-Jones, G., Horton, K. A., Elias, T., Garbeil, H., Mouginis-Mark, P., Sutton, A. J., &amp; Harris A. J. L. (2006). Accurately measuring volcanic plume velocity with multiple UV spectrometers. Bulletin of Volcanology, 68(4), 328-332.</abstract>
+      <purpose>The measurements were collected to analyze the spectral absorption of sulfur dioxide (SO2) in scattered solar radiation passing through the volcanic plume. Together with a geometrical plume model, these measurements allowed the amount of SO2 released from the Kīlauea ERZ and summit eruptions to be calculated. See the associated manuscript in Frontiers in Earth Science for more information.</purpose>
+      <supplinf>NA values indicate periods when weather or instrument conditions were insufficient to retrieve valid emission rates. Some valid SO2 emission rates are reported though the plume direction data is listed as NA. Although a valid plume direction was originally used to calculate the emission rate, the plume direction data was not successfully retained in the database.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2014</begdate>
+          <enddate>2017</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-155.3466796819</westbc>
+        <eastbc>-154.92370604911</eastbc>
+        <northbc>19.427743935244</northbc>
+        <southbc>19.225583353945</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>FLYSPEC array</themekey>
+        <themekey>UV spectroscopy</themekey>
+        <themekey>SO2 emission rate</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5abb448be4b081f61abb68ae</themekey>
+      </theme>
+      <place>
+        <placekt>GNIS</placekt>
+        <placekey>Kilauea volcano</placekey>
+        <placekey>Kilauea Crater</placekey>
+        <placekey>Kilauea East Rift Zone</placekey>
+        <placekey>Overlook vent</placekey>
+        <placekey>Pu’u’O’o</placekey>
+        <placekey>Halema'uma'u</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tamar Elias</cntper>
+          <cntorg>USGS</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>P.O. Box 1026</address>
+          <city>Hilo</city>
+          <state>HI</state>
+          <postal>96721</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>8089678826</cntvoice>
+        <cntemail>telias@usgs. gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Spectral data has a signal to noise ratio of 250:1.  Stray light is specified to less than 0.1% at 435 nm. Corrected linearity of response is better than 99%. The spectrometer’s wavelength calibration depends slightly on the optical bench temperature and is best derived for each individual spectrum from the pixel position of known solar Fraunhofer lines.</attraccr>
+    </attracc>
+    <logic>The SO2 emission rate data have been filtered for random outliers that occur due to instrumental issues or poor measurement (atmospheric) conditions. The minimum detection limit for the array is considered to be 300 t/d. This is based on a conservative estimate of minimum column amount indicating the presence of the plume, and minimum wind conditions that produce a measurable, consolidated plume. The data have been filtered to include only emission rates collected under reasonable wind speeds (2.5-20 m/s) which result in measurable plumes that are sufficiently compact, and are not influenced by excessive wind shear.  The SDH wind speed data have been filtered to eliminate physically unreasonable values for local conditions, or for determining a reasonable SO2 emission rate (wind speeds or gusts over 100 m/s). For the raw spectra provided in SumRdTraverseSpectra_2014-2017.zip,  additional processing presented as ppmm in scan*.txt files may be inaccurate due to radiative transfer issues (see Kern et. al. 2012).</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>FLYSPEC radiance spectra collected at 1-second intervals are used to calculate column path values using manufacturer supplied software (Lapfly by FLYSPEC inc.) as described in Horton, K. A., Williams-Jones, G., Garbeil, H., Elias, T., Sutton, A. J., Mouginis-Mark, P., . . . Clegg, S. (2006). Real-time measurement of volcanic SO2 emissions: validation of a new UV correlation spectrometer (FLYSPEC). Bulletin of Volcanology, 68(4), 323-327.</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Emission rates were calculated using locally collected wind or plume speed data, and manufacturer supplied software. For the ERZ data, the FLYSPEC inc. supplied software FluxCalc was used as described in Horton, K. A., Williams-Jones, G., Garbeil, H., Elias, T., Sutton, A. J., Mouginis-Mark, P., . . . Clegg, S. (2006). Real-time measurement of volcanic SO2 emissions: validation of a new UV correlation spectrometer (FLYSPEC). Bulletin of Volcanology, 68(4), 323-327, and Elias, T., &amp; Sutton, A. J. (2012). Sulfur dioxide emission rates from Kilauea Volcano, Hawai`i, 2007–2010. U.S. Geological Survey Open-File Report 2012-1107, 25 p. 
+For the Summit array data, the FLYSPEC inc.supplied software tcpServer calculates emission rates  as described in  Horton, K. A., Garbeil, H., Sutton, A. J., Elias, T., &amp; Businger, S. (2012). Early monitoring results from the Halema`uma`u Vog Measurement and Prediction FLYSPEC array [abs.]. American Geophysical Union, 2012 Chapman Conference Abstracts, p. 48. and Businger, Steven; Huff, Roy; Pattantyus, Andre; Horton, Keith; Sutton, A; Elias, Tamar; Cherubini, Tiziana. 2015, Observing and Forecasting Vog Dispersion from Kīlauea Volcano, Hawai‘i. Bulletin of the American Meteorological Society 96(10):150520105846003.</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Daily emission rates were calculated from the 10-second FLYSPEC array values by averaging all valid data for a given day. Averages are presented for days with at least 2 hours of valid 10-s data, which reduces the likelihood of atypical conditions influencing the average.</procdesc>
+        <procdate>2018</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>For raw spectra provided in SumRdTraverseSpectra_2014-2017.zip,  column densities in ppmm presented in the scan*.txt files were evaluated using the calibration cell and clear sky spectra, but may be inaccurate due to radiative transfer issues (see the associated manuscript in Frontiers in Earth Science, and Kern et. al. 2012 for more information).</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.001</latres>
+        <longres>0.001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>latitute longitude</horizdn>
+        <ellips>WGS84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SummitSO2_FLYSPECarray_10s_2014-2017.csv</enttypl>
+        <enttypd>This contains time-stamped SO2 emission rate, wind or plume speed and direction data from the summit of Kilauea for 2014-2017.</enttypd>
+        <enttypds>Authors</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Date (HST)</attrlabl>
+        <attrdef>Date in DD/MM/YYYY hh:mm:ss in Hawaiian standard time</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2014-02-27 10:02:56.000000</rdommin>
+            <rdommax>2017-12-30 16:25:00.000000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SO2 flux (t/d)</attrlabl>
+        <attrdef>A numeric identifier for the SO2 emission rate value as measured by the array of FLYSPEC instruments in metric tonnes per day.</attrdef>
+        <attrdefs>Producer defined.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>300</rdommin>
+            <rdommax>59568</rdommax>
+            <attrunit>metric tonnes per day (t/d)</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <udom>"NA" represents values that are not available due to poor measurement conditions, or instrument/communication problems. Some valid SO2 flux values are reported without plume direction values. The value "bdl" is indicated to represent values that are below the detection limit of the measurement technique. These values are &gt;20 t/d and less than 300 t/d.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wind or plume speed (m/s)</attrlabl>
+        <attrdef>A numeric or text identifier for the value of the plume or wind speed used to calculate the SO2 flux</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.5</rdommin>
+            <rdommax>19.9</rdommax>
+            <attrunit>meters per second (m/s)</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <udom>A textual description of "SDH" represents a value that is obtained from a ground-based anemometer located ~ 0.8 km north of the instrument array. These values are available in the entity "SDH_WSWD_2014-2017" which contains 10 minute average wind speed and wind direction data measured 3 m above ground level.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wind or plume direction (degrees)</attrlabl>
+        <attrdef>A numeric or text identifier for the azimuth of the plume direction in degrees from north.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>A textual description of "SDH" represents a value that is obtained from a ground-based anemometer located ~ 0.8 km north of the instrument array. These values are available in the entity "SDH_WSWD_2014-2017" which contains 10 minute average wind speed and wind direction data measured 3 m above ground level.</udom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>Azimuthal degrees from north</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ERZSO2_RdTraverse_2014-2017.csv</enttypl>
+        <enttypd>This contains time-stamped SO2 emission rate, wind speed and direction, and data quality code from the ERZ of Kilauea for 2014-2017. These campaign data were collected by traversing the Chain of Craters Road downwind of the ERZ eruption site under trade wind conditions.</enttypd>
+        <enttypds>Authors</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Date (HST)</attrlabl>
+        <attrdef>A date/time stamp in the format DD/MM/YYYY hh:mm in Hawaiian Standard Time.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1/29/2014 15:01</rdommin>
+            <rdommax>12/5/2017 13:37</rdommax>
+            <attrunit>HST</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SO2 t/d</attrlabl>
+        <attrdef>A numeric identifier for the SO2 emission rate value as measured by road traverse along Chain of Craters Road downwind of the ERZ eruption site.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>133</rdommin>
+            <rdommax>916</rdommax>
+            <attrunit>metric tonnes per day (t/d)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SO2 stdev t/d</attrlabl>
+        <attrdef>A numeric identifier for the standard deviation of all traverses through the plume during a given collection period (day).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>475</rdommax>
+            <attrunit>metric tonnes per day (t/d)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WS m/s</attrlabl>
+        <attrdef>A numeric identifier for the 10-minute average wind speed used to calculate the associated emission rate,  as measured by a 3m agl ultrasonic wind sensor located ~2 km north of Chain of Craters Road at Halona Kahakai, location 19.3189N  -155.15384W</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4</rdommin>
+            <rdommax>15</rdommax>
+            <attrunit>meters per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WD degrees</attrlabl>
+        <attrdef>A numeric identifier for the wind direction as determined by the azimuth to the Pu'u 'O'o eruptive vent from the position of the plume maximum along Chain of Craters Road, averaged for all the collection period traverses.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>N</attrlabl>
+        <attrdef>A numeric identifier for the number of traverses through the plume that were averaged to obtain the SO2 emission rate during a given collection period.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>12</rdommax>
+            <attrunit>number of traverses beneath the plume</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Quality Code</attrlabl>
+        <attrdef>A text identifier that signifies the quality of the emission rate data based on wind, weather and plume conditions and geometry.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>a</edomv>
+            <edomvd>A - BEST - strong, steady, well constrained wind conditions, and a compact, consistent plume shape.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>b</edomv>
+            <edomvd>B - GOOD - moderately consistent plume shape and location of plume on road. Moderately strong, uniform winds.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>c</edomv>
+            <edomvd>C - ACCEPTABLE - variable plume location/shape. WS/WD variable/poorly constrained. Partial plumes, meteoric cloud &gt;50%, wind shear, instrument issues included in this category.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SummitWind_SDH_2014-2017</enttypl>
+        <enttypd>This contains 10-minute time stamped wind speed and direction data as measured by an ultrasonic wind sensor located at 19.3929 N and -155.2914 W for the time period 2014-2017. These data are used to calculate emission rate values when spectrometer-determined plume speed is not available.</enttypd>
+        <enttypds>Authors</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Epoch</attrlabl>
+        <attrdef>A numeric identifier for the time of the associated measurement. This value is the Unix epoch - the number of seconds that have elapsed since January 1, 1970 (midnight UTC/GMT), not counting leap seconds.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1388534995</rdommin>
+            <rdommax>1514764795</rdommax>
+            <attrunit>Seconds elapsed since January 1, 1970 (midnight UTC/GMT), not counting leap seconds.</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Date</attrlabl>
+        <attrdef>A date/time stamp in the format DD/MM/YYYY hh:mm in Hawaiian Standard Time</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1/1/2014 0:09</rdommin>
+            <rdommax>12/31/2017 23:59</rdommax>
+            <attrunit>HST</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HRSDH_ws</attrlabl>
+        <attrdef>A numeric identifier for the 10-minute average wind speed used to calculate an associated emission rate, as measured by a 3m agl ultrasonic wind sensor.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>18.8</rdommax>
+            <attrunit>meters per second</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <udom>A textual description of "NA" represents values that are not available due to poor measurement conditions, or instrument/communication problems.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HRSDH_wd</attrlabl>
+        <attrdef>A numeric identifier for the 10-minute average wind direction used to calculate an associated emission rate, as measured by a 3m agl ultrasonic wind sensor.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>degrees (from North)</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <udom>A textual description of "NA" represents values that are not available due to poor measurement conditions, or instrument/communication problems.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HRSDH_wdstd</attrlabl>
+        <attrdef>A numeric identifier for the standard deviation of the 10-minute average wind direction used to calculate an associated emission rate, as measured by a 3m agl ultrasonic wind sensor.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>103</rdommax>
+            <attrunit>degrees (from north)</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <udom>A textual description of "NA" represents values that are not available due to poor measurement conditions, or instrument/communication problems.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SummitSO2_FLYSPECarray_10sFrequencyCount.csv</enttypl>
+        <enttypd>This file provides basic frequency count statistics for the SummitSO2_FLYarray_2014-2017.csv file, showing that 99.98% of the data are less than 30,000 tonnes/day.</enttypd>
+        <enttypds>Authors</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Bin start (t/d)</attrlabl>
+        <attrdef>A numeric identifier for the lower bound of a range (or bin) of SO2 emission rate values.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>50000</rdommax>
+            <attrunit>metric tonnes per day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bin end (t/d)</attrlabl>
+        <attrdef>A numeric identifier for the lower bound of a range (or bin) of SO2 emission rate values.</attrdef>
+        <attrdefs>Producer defigned</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10000</rdommin>
+            <rdommax>60000</rdommax>
+            <attrunit>metric tonnes per day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Frequency count</attrlabl>
+        <attrdef>A numeric identifier for the number of emission rate values that fall into a specific tonnes per day range (or bin).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>2.18E+6</rdommax>
+            <attrunit>counts</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Percent occurance</attrlabl>
+        <attrdef>A numeric identifier for the percentage of the data that fall within a given range of SO2 values.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.53E-04</rdommin>
+            <rdommax>91.87232</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SummitSO2_FLYSPECarray_DailyAverage_2014-2017</enttypl>
+        <enttypd>This file provides daily average SO2 in tonnes/day for days with at least 2 hours of data from the FLYSPEC array. The 2 hour minimum reduces the likelihood of atypical conditions influencing the average.</enttypd>
+        <enttypds>Authors</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Date (HST)</attrlabl>
+        <attrdef>A date/time stamp in the format DD/MM/YYYY hh:mm in Hawaiian Standard Time</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3/12/2014</rdommin>
+            <rdommax>12/23/2017</rdommax>
+            <attrunit>HST</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>#points/day</attrlabl>
+        <attrdef>A numeric identifier for the number of 10-second values used to calculate the SO2 average value for a given day.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>723</rdommin>
+            <rdommax>2895</rdommax>
+            <attrunit>points/day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Average SO2 (t/d)</attrlabl>
+        <attrdef>A numeric identifier for the daily average SO2 emission rate value calculated from the 10-second emission rates measured by the array of FLYSPEC instruments in metric tonnes per day.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1227</rdommin>
+            <rdommax>9970</rdommax>
+            <attrunit>metric tonnes per day (t/d)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SO2 stdev (t/d)</attrlabl>
+        <attrdef>A numeric identifier for the standard deviation of all 10-second SO2 emission rates used to calculate the daily average in metric tonnes per day.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>314</rdommin>
+            <rdommax>7748</rdommax>
+            <attrunit>metric tonnes per day (t/d)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SumRdTraverseSpectra_2014-2017.zip.</enttypl>
+        <enttypd>Inside the compressed archive SumRdTraverseSpectra_2014-2017.zip, date labeled folders contain individually acquired radiance spectra saved in a file labeled scan*.bin which is in a binary format. A new scan*.bin file is saved each time a new set of measurements (typically containing multiple traverses) is begun. Each binary file contains an array of spectra. Each spectrum is composed of an array of 2048 pixel intensities stored in single precision floating point format (4 bytes). Individual spectra can be addressed within a binary file by accessing the file position N × 8192, where N represents the desired spectrum number. Each binary file is accompanied by a scan*.txt file saved in ASCII format. The *.txt file contains metadata for each spectrum stored in the associated scan*.bin file. Each row of text represents an individual spectrum. The text columns ascribe each spectrum with an identifying number, year, month, day, hour, minute, second, latitude (in degrees), longitude (in degrees), altitude (in meters) and preliminary SO2 column density (in ppmm). The preliminary SO2 column densities are obtained by comparing incident radiance spectra with spectra obtained with the gas calibration cells inserted into the light path (see Horton (2006) for details). These preliminary values may not be accurate due to complex light path distributions occurring in and around the dense gas and aerosol clouds present near Kilauea’s Overlook Vent. See Elias et. al. (2018) and Kern et. al. (2012) for further details.</enttypd>
+        <enttypds>The spectra were collected by the staff at the U.S. Geological Survey, Hawaiian Volcano Observatory using a FLYSPEC spectroscopy instrument.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Spectral radiance</attrlabl>
+        <attrdef>Relative intensity of incident radiation measured at numerous discrete wavelengths, in spectrometer 'counts'.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>4000 per co-added spectrum</rdommax>
+            <attrunit>unitless measurement of relative intensity, often referred to as spectrometer 'counts'</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>65535 per co-added spectrum</rdommax>
+            <attrunit>unitless measurement of relative intensity, often referred to as spectrometer 'counts'</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>US Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>This dataset has been approved for release and publication by the U.S. Geological Survey (USGS). Although this dataset has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. The U.S. Geological Survey (USGS) provides these data "as is."  
+The USGS makes no guarantee or warranty concerning the accuracy of information contained in the data. The USGS further makes no warranties, either expressed or implied, as to any other matter whatsoever, including, and without limitation, the condition of the product or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers at the USGS, no warranty, expressed or implied, is made by the USGS regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty. In no event shall the USGS nor the U.S. Government have any liability whatsoever for payment of any consequential, incidental,  indirect,  special, or tort damages of any kind, including,  but not limited  to, any loss of profits arising  out of use of or reliance  on the geographic  data or arising out of delivery,  installation,  operation, or support by USGS. Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data. Any use of trade, product or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.  The U.S. Geological Survey strongly recommends that careful attention be paid to the metadata file associated with these data.  Any derivative products utilizing these datasets shall clearly indicate their source. If users modify the data in any way they are obligated to describe the types of modifications they have performed. User specifically agrees not to misrepresent these datasets, nor to imply that changes they made were approved by the U.S. Geological Survey. Acknowledgement of the U.S. Geological Survey would be appreciated in products derived from these data.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20200827</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tamar Elias</cntper>
+          <cntorg>USGS</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>P.O. Box 1026</address>
+          <city>Hilo</city>
+          <state>HI</state>
+          <postal>96721</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>8089678826</cntvoice>
+        <cntemail>telias@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
