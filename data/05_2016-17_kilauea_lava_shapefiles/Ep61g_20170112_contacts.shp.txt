@@ -1,0 +1,298 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Tim R. Orr
+        Originator: Michael H. Zoeller
+        Originator: Matthew R. Patrick 
+        Originator: Liliana G. DeSmither
+        Publication_Date: 2017
+        Title: GIS polyline shapefile for Kilauea's episode 61g lava flow, Puu Oo eruption: January 12, 2017
+        Geospatial_Data_Presentation_Form: vector digital data
+        Publication_Information:
+          Publication_Place: Reston, VA
+          Publisher: U.S. Geological Survey
+        Other_Citation_Details: Suggested citation: Orr, T.R., Zoeller, M.H., Patrick, M.R, and DeSmither, L.G., 2017, GIS shapefiles for Kilauea's episode 61g lava flow, Puu Oo eruption: May 2016 to May 2017: U.S. Geological Survey data release, https://doi.org/10.5066/F7DN43XR.
+        Online_Linkage: https://doi.org/10.5066/F7DN43XR
+    Description:
+      Abstract: These data contain all the geologic contacts for the Puu Oo 61g lava flow for January 12, 2017.
+      Purpose: These feature data are the geologic contacts for the Puu Oo 61g lava flow for January 12, 2017. See entity information for type and accuracy.
+      Supplemental_Information: This dataset contains the geologic contacts for the the Puu Oo 61g lava flow for January 12, 2017.  The scale of the source map limits the spatial resolution (scale) of the database to 1:24,000 or smaller. The content and character of the digital publication, as well as methods for obtaining the digital files, are described here. The database was compiled in ArcMap, a commercial Geographic Information System (GIS) by Environmental Systems Research Institute (ESRI) of Redlands, California.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2017
+      Currentness_Reference: publication date
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -155.100453
+        East_Bounding_Coordinate: -155.036245
+        North_Bounding_Coordinate: 19.396249
+        South_Bounding_Coordinate: 19.315488
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword: geology
+        Theme_Keyword: volcanoes
+        Theme_Keyword: Hawaii
+        Theme_Keyword: Hawai`i
+        Theme_Keyword: flow map
+        Theme_Keyword: map
+        Theme_Keyword: Kilauea
+        Theme_Keyword: geologic contacts
+        Theme_Keyword: Puu Oo
+        Theme_Keyword: Episode 61g
+      Place:
+        Place_Keyword_Thesaurus: None
+        Place_Keyword: Hawaii
+        Place_Keyword: Hawai`i
+        Place_Keyword: Kilauea
+        Place_Keyword: Volcano
+        Place_Keyword: Puu Oo
+      Stratum:
+        Stratum_Keyword_Thesaurus: None
+        Stratum_Keyword: None
+      Temporal:
+        Temporal_Keyword_Thesaurus: None
+        Temporal_Keyword: Holocene
+    Access_Constraints: None
+    Use_Constraints: Uses of this digital geologic map should not violate the spatial resolution of the data. Although the digital form of the data removes the constraint imposed by the scale of a printed paper map, the detail and accuracy inherent in map scale are also present in the digital data. The fact that this database was edited for a scale of 1:24,000 means that higher resolution information is not present in the dataset. Plotting at scales larger than these will not yield greater real detail, although it may reveal fine-scale irregularities below the intended resolution of the database. Similarly, where this database is used in combination with other data of higher resolution, the resolution of the combined output will be limited by the lower resolution of these data. Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Tim Orr
+          Contact_Organization: U.S. Geological Survey, ALASKA REGION
+        Contact_Position: Geologist
+        Contact_Address:
+          Address_Type: mailing address
+          Address: Hawaiian Volcano Observatory
+          Address: Reginald T Okamura Bldg 336
+          Address: 51 Crater Rim Drive
+          Address: P.O. Box 51
+          City: Hawaii National Park
+          State_or_Province: HI
+          Postal_Code: 96718
+          Country: United States
+        Contact_Voice_Telephone: 808-967-8829
+        Contact_Facsimile_Telephone: 808-967-8890
+        Contact_Electronic_Mail_Address: torr@usgs.gov
+        Contact_Instructions: Preferred contact by e-mail
+    Data_Set_Credit: The dataset was compiled from original geologic mapping by Tim Orr, Matt Patrick, and Lil DeSmither. Dataset compilation and preparation of the metadata was done by Mike Zoeller.
+    Security_Information:
+      Security_Classification_System: None
+      Security_Classification: Unclassified
+      Security_Handling_Description: None
+    Native_Data_Set_Environment: Environment as of Metadata Creation: Microsoft Windows 8 Version 6.2 (Build 9200) Service Pack N/A; Esri ArcGIS 10.3.1 (Build 4959) Service Pack N/A
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report: See Entity_Attribute_Information
+      Quantitative_Attribute_Accuracy_Assessment:
+        Attribute_Accuracy_Value: See Attribute_Accuracy_Explanation
+        Attribute_Accuracy_Explanation: Attribute accuracy is described, where present, with each attribute that is defined in the relevant sections.
+    Logical_Consistency_Report: Polyline topology was validated and repaired in a file geodatabase, then polyline feature data were exported to shapefiles.
+    Completeness_Report: The report is intended to describe completely the volcanic products, vent locations, and structural features at 1:24,000 scale. Geological information mappable only at larger scales has been omitted.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: Well-located data items are intended to have a horizontal positional accuracy better than 0.5 mm at 1:24,000 scale, or 12 m on the ground. The general positional accuracy of each line in the dataset is indicated qualitatively within the AccuracyMe field in the shapefile table.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: No Vertical positional data recorded.
+    Lineage:
+      Process_Step:
+        Process_Description: Lines were digitized by hand as vectors or track files imported from handheld GPS and edited on-screen. Polygon and region topology were created; each line, polygon, and region was tagged on-screen. Then converted to shapefile(s) and then ArcMap document created.
+        Process_Date: 20170718
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Tim Orr
+              Contact_Organization: U.S. Geological Survey
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: U.S.Geological Survey
+              Address: Hawaiian Volcano Observatory
+              Address: 51 Crater Rim Drive
+              Address: P.O. Box 51
+              City: Hawaii National Park
+              State_or_Province: Hawaii
+              Postal_Code: 96718-0051
+              Country: USA
+            Contact_Voice_Telephone: 808-967-7328
+            Contact_Electronic_Mail_Address: torr@usgs.gov
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: String
+        Point_and_Vector_Object_Count: 135
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Planar:
+        Map_Projection:
+          Map_Projection_Name: WGS 1984 UTM Zone 5N
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.9996
+            Longitude_of_Central_Meridian: -153.0
+            Latitude_of_Projection_Origin: 0.0
+            False_Easting: 500000.0
+            False_Northing: 0.0
+        Planar_Coordinate_Information:
+          Planar_Coordinate_Encoding_Method: coordinate pair
+          Coordinate_Representation:
+            Abscissa_Resolution: 0.000000002220024164500956
+            Ordinate_Resolution: 0.000000002220024164500956
+          Planar_Distance_Units: meter
+      Geodetic_Model:
+        Horizontal_Datum_Name: D WGS 1984
+        Ellipsoid_Name: WGS 1984
+        Semi-major_Axis: 6378137.0
+        Denominator_of_Flattening_Ratio: 298.257223563
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: Ep61g_20170112_contacts
+        Entity_Type_Definition: Polyline contacts of geologic unit.
+        Entity_Type_Definition_Source: Author
+      Attribute:
+        Attribute_Label: FID
+        Attribute_Definition: Internal feature number.
+        Attribute_Definition_Source: Esri
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+      Attribute:
+        Attribute_Label: Shape
+        Attribute_Definition: Feature geometry.
+        Attribute_Definition_Source: Esri
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Coordinates defining the features.
+      Attribute:
+        Attribute_Label: LineType
+        Attribute_Definition: Description of the type of contact represented by the feature.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: contact
+            Enumerated_Domain_Value_Definition: Flow margin contact
+            Enumerated_Domain_Value_Definition_Source: Author
+      Attribute:
+        Attribute_Label: AccuracyMe
+        Attribute_Definition: Spatial accuracy, in meters, of the feature.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 10
+            Range_Domain_Maximum: 100
+      Attribute:
+        Attribute_Label: Source
+        Attribute_Definition: Method of producing the feature.
+        Attribute_Definition_Source: Author.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: GPS, ground
+            Enumerated_Domain_Value_Definition: Ground mapping by HVO using handheld GPS
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: GPS, air
+            Enumerated_Domain_Value_Definition: Aerial mapping from helicopter by HVO using handheld GPS
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: EO-1
+            Enumerated_Domain_Value_Definition: EO-1 ALI image
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Worldview
+            Enumerated_Domain_Value_Definition: Worldview image
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Ortho, HVO
+            Enumerated_Domain_Value_Definition: Orthorectified aerial imagery acquired by HVO
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Ortho, RemapHawaii
+            Enumerated_Domain_Value_Definition: Orthorectified aerial imagery acquired by ReMap Hawaii
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Satellite, not specified
+            Enumerated_Domain_Value_Definition: Non-specified satellite imagery; mapping by USGS Reston
+            Enumerated_Domain_Value_Definition_Source: Author
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Digital Globe
+            Enumerated_Domain_Value_Definition: Digital Globe satellite image
+            Enumerated_Domain_Value_Definition_Source: Author
+      Attribute:
+        Attribute_Label: SourceDate
+        Attribute_Definition: Date when the feature was produced.
+        Attribute_Definition_Source: Author
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Date values entered by the feature author.
+      Attribute:
+        Attribute_Label: SHAPE_Leng
+        Attribute_Definition: Length of feature in meters.
+        Attribute_Definition_Source: Esri
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: Positive real numbers that were automatically generated in a geodatabase.
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: U.S. Geological Survey
+          Contact_Person: ScienceBase
+        Contact_Address:
+          Address_Type: mailing address
+          Address: Denver Federal Center
+          Address: Building 810
+          Address: Mail Stop 302
+          City: Denver
+          State_or_Province: CO
+          Postal_Code: 80225
+          Country: USA
+        Contact_Voice_Telephone: 1-888-ASK-USGS
+        Contact_Electronic_Mail_Address: sciencebase@usgs.gov
+    Distribution_Liability: This dataset has been approved for release and publication by the Director of the U.S. Geological Survey (USGS). Although this dataset has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: Zipped folder
+          Format_Information_Content: Zipped folder containing ESRI shapefile(s).
+          File_Decompression_Technique: Winzip
+          Transfer_Size: 3.9
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: https://doi.org/10.5066/F7DN43XR
+      Fees: None. No fees are applicable for obtaining the dataset.
+    Available_Time_Period:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2017
+  Metadata_Reference_Information:
+    Metadata_Date: 20170718
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: U.S. Geological Survey
+          Contact_Person: Michael Zoeller
+        Contact_Address:
+          Address_Type: mailing address
+          Address: Hawaiian Volcano Observatory
+          Address: P.O. Box 51
+          City: Hawaii National Park
+          State_or_Province: HI
+          Postal_Code: 96718-0051
+          Country: USA
+        Contact_Voice_Telephone: 808-967-8812
+        Contact_Electronic_Mail_Address: mzoeller@usgs.gov
+        Contact_Instructions: Hawaiian Volcano Observatory
+    Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+    Metadata_Time_Convention: local time

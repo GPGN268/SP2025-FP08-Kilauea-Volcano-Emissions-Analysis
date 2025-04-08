@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tim R. Orr</origin>
+        <origin>Michael H. Zoeller</origin>
+        <origin>Matthew R. Patrick</origin>
+        <origin>Liliana G. DeSmither</origin>
+        <pubdate>2017</pubdate>
+        <title>GIS polygon shapefile for Kilauea's episode 61g lava flow, Puu Oo eruption: May 3, 2017</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Suggested citation: Orr, T.R., Zoeller, M.H., Patrick, M.R, and DeSmither, L.G., 2017, GIS shapefiles for Kilauea's episode 61g lava flow, Puu Oo eruption: May 2016 to May 2017: U.S. Geological Survey data release, https://doi.org/10.5066/F7DN43XR.</othercit>
+        <onlink>https://doi.org/10.5066/F7DN43XR</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data contain the geologic polygon for the Puu Oo 61g lava flow for May 3, 2017.</abstract>
+      <purpose>These feature data are the geologic polygon for the Puu Oo 61g lava flow for May 3, 2017. See entity information of corresponding polyline shapefile for boundary type and accuracy.</purpose>
+      <supplinf>This dataset contains the geologic polygon for the the Puu Oo 61g lava flow for May 3, 2017.  The scale of the source map limits the spatial resolution (scale) of the database to 1:24,000 or smaller. The content and character of the digital publication, as well as methods for obtaining the digital files, are described here. The database was compiled in ArcMap, a commercial Geographic Information System (GIS) by Environmental Systems Research Institute (ESRI) of Redlands, California.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-155.100453</westbc>
+        <eastbc>-155.034933</eastbc>
+        <northbc>19.396263</northbc>
+        <southbc>19.315488</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>geology</themekey>
+        <themekey>volcanoes</themekey>
+        <themekey>Hawaii</themekey>
+        <themekey>Hawai`i</themekey>
+        <themekey>flow map</themekey>
+        <themekey>map</themekey>
+        <themekey>Kilauea</themekey>
+        <themekey>geologic polygon</themekey>
+        <themekey>Puu Oo</themekey>
+        <themekey>Episode 61g</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Hawaii</placekey>
+        <placekey>Hawai`i</placekey>
+        <placekey>Kilauea</placekey>
+        <placekey>Volcano</placekey>
+        <placekey>Puu Oo</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>None</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>Holocene</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Uses of this digital geologic map should not violate the spatial resolution of the data. Although the digital form of the data removes the constraint imposed by the scale of a printed paper map, the detail and accuracy inherent in map scale are also present in the digital data. The fact that this database was edited for a scale of 1:24,000 means that higher resolution information is not present in the dataset. Plotting at scales larger than these will not yield greater real detail, although it may reveal fine-scale irregularities below the intended resolution of the database. Similarly, where this database is used in combination with other data of higher resolution, the resolution of the combined output will be limited by the lower resolution of these data. Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tim Orr</cntper>
+          <cntorg>U.S. Geological Survey, ALASKA REGION</cntorg>
+        </cntperp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Hawaiian Volcano Observatory</address>
+          <address>Reginald T Okamura Bldg 336</address>
+          <address>51 Crater Rim Drive</address>
+          <address>P.O. Box 51</address>
+          <city>Hawaii National Park</city>
+          <state>HI</state>
+          <postal>96718</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>808-967-8829</cntvoice>
+        <cntfax>808-967-8890</cntfax>
+        <cntemail>torr@usgs.gov</cntemail>
+        <cntinst>Preferred contact by e-mail</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The dataset was compiled from original geologic mapping by Tim Orr, Matt Patrick, and Lil DeSmither. Dataset compilation and preparation of the metadata was done by Mike Zoeller.</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Environment as of Metadata Creation: Microsoft Windows 8 Version 6.2 (Build 9200) Service Pack N/A; Esri ArcGIS 10.3.1 (Build 4959) Service Pack N/A</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity_Attribute_Information</attraccr>
+      <qattracc>
+        <attraccv>See Attribute_Accuracy_Explanation</attraccv>
+        <attracce>Attribute accuracy is described, where present, with each attribute that is defined in the relevant sections.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Polyline topology was validated and repaired in a file geodatabase, then a polygon shapefile was constructed from the polylines.</logic>
+    <complete>The report is intended to describe completely the volcanic products, vent locations, and structural features at 1:24,000 scale. Geological information mappable only at larger scales has been omitted.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Well-located data items are intended to have a horizontal positional accuracy better than 0.5 mm at 1:24,000 scale, or 12 m on the ground. The general positional accuracy of the polygon boundary is indicated qualitatively within the AccuracyMe field in the corresponding polyline shapefile's table.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No Vertical positional data recorded.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Lines were digitized by hand as vectors or track files imported from handheld GPS and edited on-screen. Polygon and region topology were created; each line, polygon, and region was tagged on-screen. Then converted to shapefile(s) and then ArcMap document created.</procdesc>
+        <procdate>20170718</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Tim Orr</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>U.S.Geological Survey</address>
+              <address>Hawaiian Volcano Observatory</address>
+              <address>51 Crater Rim Drive</address>
+              <address>P.O. Box 51</address>
+              <city>Hawaii National Park</city>
+              <state>Hawaii</state>
+              <postal>96718-0051</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>808-967-7328</cntvoice>
+            <cntemail>torr@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 UTM Zone 5N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-153.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Ep61g_20170503_flow</enttypl>
+        <enttypd>Polygon geologic unit.</enttypd>
+        <enttypds>Author</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AreaSqKM</attrlabl>
+        <attrdef>Area of the the feature in square kilometers.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that were generated by the author.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center</address>
+          <address>Building 810</address>
+          <address>Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-ASK-USGS</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>This dataset has been approved for release and publication by the Director of the U.S. Geological Survey (USGS). Although this dataset has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Zipped folder</formname>
+          <formcont>Zipped folder containing ESRI shapefile(s).</formcont>
+          <filedec>Winzip</filedec>
+          <transize>3.9</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/F7DN43XR</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the dataset.</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20170718</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Michael Zoeller</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Hawaiian Volcano Observatory</address>
+          <address>P.O. Box 51</address>
+          <city>Hawaii National Park</city>
+          <state>HI</state>
+          <postal>96718-0051</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>808-967-8812</cntvoice>
+        <cntemail>mzoeller@usgs.gov</cntemail>
+        <cntinst>Hawaiian Volcano Observatory</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
