@@ -28,6 +28,7 @@ dependencies:
   - ca-certificates=2025.2.25=hecd8cb5_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
+  - cartopy=0.24.0=py312h98e817e_0
   - certifi=2025.1.31=pyhd8ed1ab_0
   - cffi=1.17.1=py312h9205ec4_1
   - charset-normalizer=3.4.1=pyhd8ed1ab_0
@@ -177,6 +178,7 @@ dependencies:
   - pyogrio=0.10.0=py312h4bcfd6b_1
   - pyparsing=3.2.3=pyhd8ed1ab_1
   - pyproj=3.7.1=py312hc805472_0
+  - pyshp=2.3.1=pyhd8ed1ab_1
   - pysocks=1.7.1=pyha55dd90_7
   - python=3.12.2=h9f0c242_0_cpython
   - python-dateutil=2.9.0.post0=pyhff2d567_1
