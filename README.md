@@ -25,6 +25,9 @@ This dataset has volcanic plume data also from Kīlauea, formatted in csv files 
 Data from Kilauea relating to SO2 emissions: 
 - https://www.sciencebase.gov/catalog/item/5abb448be4b081f61abb68ae
 
+Elevation of Lava Lake on Kīlauea:
+- https://www.sciencebase.gov/catalog/item/5f8feb0e82ce06b040f1ffa4
+
 ### Tools/packages you’ll use (with links):
 - [Numpy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
