@@ -4,16 +4,16 @@
 #### Clara Pugh: git @claranp
 ---
 
-### Short 1-2 sentence summary:
+### Summary:
 This project will analyze geohazards associated with the Kīlauea volcano. The analysis will specifically focus on lava-flow-induced hazards. 
 
-### Some introductory background information:
+### Bbackground:
 Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems from Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano. It most recently erupted in June 2024. [1] 
 
-### Problem statement, question(s) and/or objective(s):
+### Objective Question:
 How are the size/volumes of lava flows and lava plumes related?
 
-### Datasets you will use (with links, if available):
+### Datasets used:
 
 Datasets with GIS shapefiles of lava flows at Kīlauea, can be analyzed with GeoPandas:
 - [June 2014 - June 2016](https://www.sciencebase.gov/catalog/item/5cdd9871e4b029273746360f)
@@ -28,7 +28,7 @@ Data from Kilauea relating to SO2 emissions:
 Elevation of Lava Lake on Kīlauea:
 - https://www.sciencebase.gov/catalog/item/5f8feb0e82ce06b040f1ffa4
 
-### Tools/packages you’ll use (with links):
+### Tools/packages used:
 - [Numpy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [GeoPandas](https://geopandas.org/en/stable/)
