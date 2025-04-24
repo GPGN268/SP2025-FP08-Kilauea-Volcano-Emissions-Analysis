@@ -44,6 +44,6 @@ We can see in this that from 2010 to 2018, the surface elevation of the lava lak
 ## Final Thoughts
 
 ## Sources
-[1](https://www.usgs.gov/volcanoes/kilauea/image-galleries)
-[2](https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH)
-[3](https://www.usgs.gov/volcanoes/kilauea/data)
+[1] [https://www.usgs.gov/volcanoes/kilauea/image-galleries](https://www.usgs.gov/volcanoes/kilauea/image-galleries)
+[2] [https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH](https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH)
+[3] [(https://www.usgs.gov/volcanoes/kilauea/data](https://www.usgs.gov/volcanoes/kilauea/data)
