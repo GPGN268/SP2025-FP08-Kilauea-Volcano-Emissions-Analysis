@@ -54,6 +54,8 @@ With these 7-day rolling averages we can see a wave-like pattern in SO2 emission
 ## Final Thoughts
 There are positive correlations between activity and volume in lava flow rates, SO2 emissions, and lava lake elevations. These findings could be expanded in the future with a statistical analysis. 
 
+Potential areas for future research could be looking at data from other emissions related to Kīlauea as well as collecting more data over longer time periods to look at trends over longer time periods. It could also be interesting to look at potential correlations between activity of different volcanos in the Hawaii area.
+
 ## Sources
 [1] [https://www.usgs.gov/volcanoes/kilauea/image-galleries](https://www.usgs.gov/volcanoes/kilauea/image-galleries)
 
