@@ -35,7 +35,7 @@ Elevation of Lava Lake on Kīlauea:
 - [Pandas](https://pandas.pydata.org/)
 
 ### Planned methodology/approach:
-- We will analyze lava flows in relation to time at the Kīlauea volcano. 
+- We will analyze lava flows in relation to lava lake elevations, SO2 emissions, and plume heights at the Kīlauea volcano. 
 - We will compare this data numerically to lava plume/gas release volume for the same eruptions.
 
 ### Expected outcomes:
