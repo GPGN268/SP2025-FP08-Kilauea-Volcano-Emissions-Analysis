@@ -11,7 +11,7 @@ This project will analyze geohazards associated with the Kīlauea volcano. The a
 Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems from Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano. It most recently erupted in June 2024. [1] 
 
 ### Objective Question:
-How are the size/volumes of lava flows and lava plumes related?
+How are lava flows, lava lakes, plume heights, and SO2 emissions related?
 
 ### Datasets used:
 
