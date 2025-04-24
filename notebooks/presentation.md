@@ -1,4 +1,4 @@
-# Kīlauea Volcano Hazards Analysis
+# Kīlauea Volcano Emissions Analysis
 Clara Pugh and Lillian Hanson
 
 
