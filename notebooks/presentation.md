@@ -52,6 +52,7 @@ We can see in this that from 2010 to 2018, the surface elevation of the lava lak
 With these 7-day rolling averages we can see a wave-like pattern in SO2 emissions. The spikes may indicate heavier flow periods. When comparing with other data, we can see very steady levels of flow during high-flow times, such as June of 2016. There is a gap around January of 2017, which is interesting because another "leg" of lava flow formed around this time. 
 
 ## Final Thoughts
+There are positive correlations between activity and volume in lava flow rates, SO2 emissions, and lava lake elevations. These findings could be expanded in the future with a statistical analysis. 
 
 ## Sources
 [1] [https://www.usgs.gov/volcanoes/kilauea/image-galleries](https://www.usgs.gov/volcanoes/kilauea/image-galleries)
