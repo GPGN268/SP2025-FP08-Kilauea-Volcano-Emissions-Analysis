@@ -39,7 +39,7 @@ We see in this that the elevation of the volcanic plume above Kilauea was highly
 We can see in this that from 2010 to 2018, the surface elevation of the lava lake on Kilauea (within the within Halemaʻumaʻu crater) was rising fairly steadily, until the volcano began to erupt in the 2018 lower East Rift Zone, which pulled a lot of the magma out from the volcano, and caused the lava lake to drain rapidly.
 
 ## SO2 Emissions
-![SO2 Emissions](../figures/SO2_emissions.png)
+![SO2 Emissions](../figures/SO2_emissions.jpg)
 
 With these 7-day rolling averages we can see a wave-like pattern in SO2 emissions. The spikes may indicate heavier flow periods. When comparing with other data, we can see very steady levels of flow during high-flow times, such as June of 2016. There is a gap around January of 2017, which is interesting because another "leg" of lava flow formed around this time. 
 
