@@ -20,7 +20,9 @@ We first found our data on the USGS data page for the Kīlauea volcano. The data
 We focused on data within a range from about 2008-2018, with many of our datasets only covering a few years of time. This means that while the data from each phenomenon that we graphed overlaps in its timeframe with other graphs, not all of our data was taken over the sem timeframes, so we do not have a complete view of how each phenomenon was changing at every time.
 
 ## Lava Flows
-add lava flow animation
+
+![2014-2016 Lava Flow](../figures/lava_flow_animation.gif)
+
 
 ![2016-2017 Lava Flows](../figures/2016-17_lava.png)
 
