@@ -8,8 +8,8 @@ We analyzed geohazards associated with the Kīlauea volcano in Hawaii. Kīlauea 
 ![Kīlauea Lava Flow](../figures/lava-flow-image-USGS.jpg)
 Kīlauea Lava Flow Image (Source: USGS Kīlauea Images)
 
-
---> maybe put a map of hawaii that shows location of Kīlauea
+![Kīlauea Location](../figures/volcano_location_map.png)
+Kīlauea Location Map (Source: USGS Hawaii Volcano Observatory)
 
 ## Our Process
 We first found our data on the USGS data page for the Kīlauea volcano. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, and geopandas to assist with our analysis and visualizations. 
