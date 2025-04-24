@@ -6,13 +6,13 @@ Clara Pugh and Lillian Hanson
 We analyzed geohazards associated with the Kīlauea volcano in Hawaii. Kīlauea is currently one of the world's most active volcanos, and it is a shield volcano. We wanted to look at how the different forms of volcanic emissions that Kīlauea produces are related to each other. We looked at lava flows, volcanic plume heights, SO2 emissions, and the elevation over time of a lava lake in one of Kīlauea's craters, all using data from the USGS.
 
 ![Kīlauea Lava Flow](../figures/lava-flow-image-USGS.jpg)
-Kīlauea Lava Flow Image (Source: USGS Kīlauea Images)
+Kīlauea Lava Flow Image [1]
 
 ![Kīlauea Location](../figures/volcano_location_map.png)
-Kīlauea Location Map (Source: USGS Hawaii Volcano Observatory)
+Kīlauea Location Map [2]
 
 ## Our Process
-We first found our data on the USGS data page for the Kīlauea volcano. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, and geopandas to assist with our analysis and visualizations. 
+We first found our data on the USGS data page for the Kīlauea volcano [3]. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, and geopandas to assist with our analysis and visualizations. 
 
 --> Probably add some more here
 
@@ -44,4 +44,6 @@ We can see in this that from 2010 to 2018, the surface elevation of the lava lak
 ## Final Thoughts
 
 ## Sources
-
+[1](https://www.usgs.gov/volcanoes/kilauea/image-galleries)
+[2](https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH)
+[3](https://www.usgs.gov/volcanoes/kilauea/data)
