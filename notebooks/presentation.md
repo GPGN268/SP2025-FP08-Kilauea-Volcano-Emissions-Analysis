@@ -3,7 +3,7 @@ Clara Pugh and Lillian Hanson
 
 
 ## Problem Statement/Introduction
-We analyzed volcanic emissions and activity monitoring indexes associated with the Kīlauea volcano in Hawaii. Kīlauea is currently one of the world's most active volcanos. It is a shield volcano. We wanted to look at how the different forms of volcanic emissions that Kīlauea produces are related to each other. We looked at lava flows, volcanic plume heights, SO2 emissions, and the elevation over time of a lava lake in one of Kīlauea's craters, all using data from the USGS.
+We analyzed volcanic emissions and activity monitoring indexes associated with the Kīlauea volcano in Hawaii. This includes lava flow rates and patterns, SO2 emissions, plume height, and lava Kīlauea is currently one of the world's most active volcanos. It is a shield volcano. We wanted to look at how the different forms of volcanic emissions that Kīlauea produces are related to each other. We looked at lava flows, volcanic plume heights, SO2 emissions, and the elevation over time of a lava lake in one of Kīlauea's craters, all using data from the USGS.
 
 This question is significant because understanding these emissions and their implications on volcanic activity can further research into geohazards and could lead to life-saving discoveries.
 
