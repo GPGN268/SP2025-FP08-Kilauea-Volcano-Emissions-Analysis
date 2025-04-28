@@ -8,7 +8,7 @@
 This project will analyze geohazards associated with the Kīlauea volcano. The analysis will specifically focus on lava-flow-induced hazards. 
 
 ### Background:
-Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems from Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano. It most recently erupted in June 2024. [1] 
+Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems from Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano [1]. It most recently erupted in February 2025. Kīlauea may also be referred to as Volcano Number 332010. It reaches an peak elevation of 1222 m. 70% of the surface of the volcano is comprised of rock from lava flows less than 600 years old. Kīlauea is considered to be an intraplate volcano, and it sits on oceanic crust. 3,122 people live within 10 km of the peak, and 8,495 live within 30 km [2], with several hundr. Ensuring the safety of this population is a driving factor for volcanic research. 
 
 ### Objective Question:
 How are lava flows, lava lakes, plume heights, and SO2 emissions related?
@@ -49,4 +49,5 @@ Lava flow viscosity relating to mineralogy:
 - The lava flow data is GIS shapefiles, which is not a format we have not used before, so it could be challenging initially to figure out how to open and work with that data
 
 ### References:
-[1] https://www.usgs.gov/volcanoes/kilauea
+[1] [https://www.usgs.gov/volcanoes/kilauea](https://www.usgs.gov/volcanoes/kilauea)
+[2] [https://volcano.si.edu/volcano.cfm?vn=332010](https://volcano.si.edu/volcano.cfm?vn=332010)
