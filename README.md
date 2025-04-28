@@ -42,8 +42,7 @@ Elevation of Lava Lake on Kīlauea:
 - We expect that higher volumes of lava flow would be correlated with higher volumes of gas emissions and more/higher volumes of volcanic plumes.
 
 ### Any other relevant information, images/tables, references, etc.:
-Lava flow viscosity relating to mineralogy:
-- https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jgrf.20111
+
 
 ### Anticipated Challenges:
 - The lava flow data is GIS shapefiles, which is not a format we have not used before, so it could be challenging initially to figure out how to open and work with that data
