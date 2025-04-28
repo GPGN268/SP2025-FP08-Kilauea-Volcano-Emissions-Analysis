@@ -33,6 +33,8 @@ Elevation of Lava Lake on Kīlauea:
 - [Matplotlib](https://matplotlib.org/)
 - [GeoPandas](https://geopandas.org/en/stable/)
 - [Pandas](https://pandas.pydata.org/)
+- [Contextily](https://contextily.readthedocs.io/en/latest/)
+- [PyProj](https://pypi.org/project/pyproj/)
 
 ### Planned methodology/approach:
 - We will analyze lava flows in relation to lava lake elevations, SO2 emissions, and plume heights at the Kīlauea volcano. 
