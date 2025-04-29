@@ -1,4 +1,4 @@
-# Volcanic Flow Hazard Analysis
+# Kīlauea Volcano Emissions Analysis
 
 #### Lillian Hanson: git @lillian-hanson
 #### Clara Pugh: git @claranp
