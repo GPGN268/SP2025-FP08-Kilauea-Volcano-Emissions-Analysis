@@ -3,20 +3,20 @@ Clara Pugh and Lillian Hanson
 
 
 ## Problem Statement/Introduction
-We analyzed volcanic emissions and activity monitoring indexes associated with the Kīlauea volcano in Hawaii. This includes lava flow rates and patterns, SO2 emissions, plume height, and lava Kīlauea is currently one of the world's most active volcanos. It is a shield volcano. We wanted to look at how the different forms of volcanic emissions that Kīlauea produces are related to each other. We looked at lava flows, volcanic plume heights, SO2 emissions, and the elevation over time of a lava lake in one of Kīlauea's craters, all using data from the USGS.
+We analyzed volcanic emissions and activity monitoring indexes associated with the Kīlauea volcano in Hawaii. This includes lava flow rates and patterns, SO2 emissions, plume height, and lava Kīlauea is currently one of the world's most active volcanos. It is a shield volcano. 3,122 people live within 10 km of the peak, and 8,495 live within 30 km [1], and several hundred thousand people living less than 100 km from the peak. Ensuring the safety of this population is a driving factor for volcanic research. We wanted to look at how the different forms of volcanic emissions that Kīlauea produces are related to each other. We looked at lava flows, volcanic plume heights, SO2 emissions, and the elevation over time of a lava lake in one of Kīlauea's craters, all using data from the USGS.
 
 This question is significant because understanding these emissions and their implications on volcanic activity can further research into geohazards and could lead to life-saving discoveries.
 
 #### Kīlauea Lava Flow
 ![Kīlauea Lava Flow](../figures/lava-flow-image-USGS.jpg)
-Kīlauea Lava Flow Image [1]
+Kīlauea Lava Flow Image [2]
 
 #### Kīlauea Relative Position
 ![Kīlauea Location](../figures/volcano_location_map.png)
-Kīlauea Location Map [2]
+Kīlauea Location Map [3]
 
 ## Our Process
-We first found our data on the USGS data page for the Kīlauea volcano [3]. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, and geopandas to assist with our analysis and visualizations.
+We first found our data on the USGS data page for the Kīlauea volcano [4]. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, and geopandas to assist with our analysis and visualizations.
 
 For our the 2014-2016 lave flow data, due to the large amount of time snapshots available (35), we used an animation to show the growth of the flow over time. From 2016-2017 there were few enough snapshots that we decided to show this progression as a series of graphs.
 
@@ -57,8 +57,10 @@ There are positive correlations between activity and volume in lava flow rates, 
 Potential areas for future research could be looking at data from other emissions related to Kīlauea as well as collecting more data over longer time periods to look at trends over longer time periods. It could also be interesting to look at potential correlations between activity of different volcanos in the Hawaii area.
 
 ## Sources
-[1] [https://www.usgs.gov/volcanoes/kilauea/image-galleries](https://www.usgs.gov/volcanoes/kilauea/image-galleries)
+[1] [https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH)](https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH)
 
-[2] [https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH](https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH)
+[2] [https://www.usgs.gov/volcanoes/kilauea/image-galleries](https://www.usgs.gov/volcanoes/kilauea/image-galleries)
 
-[3] [https://www.usgs.gov/volcanoes/kilauea/data](https://www.usgs.gov/volcanoes/kilauea/data)
+[3] [https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH](https://www.usgs.gov/volcanoes/kilauea?vol=WARNING,ADVISORY,WATCH)
+
+[4] [https://www.usgs.gov/volcanoes/kilauea/data](https://www.usgs.gov/volcanoes/kilauea/data)
