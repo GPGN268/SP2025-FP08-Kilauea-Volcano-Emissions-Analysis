@@ -34,17 +34,17 @@ With this animation, we see series of fast growth, alternating with time periods
 #### 2016-2017 Lava Flow
 ![2016-2017 Lava Flows](../figures/2016-17_lava.png)
 
-We can see that there was a lot of expansion of the lava flow from May to August 2016, and then it started slowing down its growth. This data has similar correlations as the animation above. 
+There was a lot of expansion of the lava flow from May to August 2016, and then it started slowing down its growth. This data has similar correlations as the animation above. 
 
 ## Volcanic Plume Height
 ![Plume Height](../figures/plume_height.png)
 
-We see in this that the elevation of the volcanic plume above Kilauea was highly variable, although it reached some peaks around the beginning and middle of 2014. Peak height has an overall positive trend leading into our time period of flow collection (2014-2017). 
+The elevation of the volcanic plume above Kilauea was highly variable, although it reached some peaks around the beginning and middle of 2014. Peak height has an overall positive trend leading into our time period of flow collection (2014-2017). 
 
 ## Lava Lake Elevation
 ![Lava Lake Elevation](../figures/lava_lake_elev.png)
 
-We can see in this that from 2010 to 2018, the surface elevation of the lava lake on Kilauea (within the within Halemaʻumaʻu crater) was rising fairly steadily, until the volcano began to erupt in the 2018 lower East Rift Zone, which pulled a lot of the magma out from the volcano, and caused the lava lake to drain rapidly. The spike of lake elevation in 2015 lines up with a spike in SO2 emissions. 
+From 2010 to 2018, the surface elevation of the lava lake on Kilauea (within the within Halemaʻumaʻu crater) was rising fairly steadily, until the volcano began to erupt in the 2018 lower East Rift Zone, which pulled a lot of the magma out from the volcano, and caused the lava lake to drain rapidly. The spike of lake elevation in 2015 lines up with a spike in SO2 emissions. 
 
 ## SO2 Emissions
 ![SO2 Emissions](../figures/SO2_emissions.png)
