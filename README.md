@@ -7,10 +7,11 @@
 ### Summary:
 This project analyzes volcanic emissions and activity monitoring indices associated with the Kīlauea volcano in Hawaii. This includes lava flow rates and patterns, SO2 emissions, plume height, and lava.
 
+### How To Use This Repository:
+This repository contains one main Jupyter Notebook file, final_analysis.ipynb, in the /notebooks folder. This file contains the code needed to reproduce all three flow graphs, the lava lake elevation graph, the SO2 emissions graph, and the plume height graph. The presentation.md file, also in the /notebooks folder, contains all of these figures in a more readable format, along with additional information and context. The dev folder contains code used in the development of the final notebook. 
+
 ### Background:
 Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems from Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano [1]. It most recently erupted in February 2025. Kīlauea may also be referred to as Volcano Number 332010. It reaches a peak elevation of 1222 m. 70% of the volcano's surface is comprised of rock from lava flows that are less than 600 years old. Kīlauea is considered to be an intraplate volcano, and it sits on oceanic crust. 3,122 people live within 10 km of the peak, and 8,495 live within 30 km [2], and several hundred thousand people live less than 100 km from the peak. Ensuring the safety of this population is a driving factor for volcanic research. 
-
-### How To Use This Repository:
 
 ### Objective Question:
 How are lava flows, lava lakes, plume heights, and SO2 emissions related?
