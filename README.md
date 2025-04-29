@@ -46,9 +46,6 @@ Elevation of Lava Lake on Kīlauea:
 ### Summary of Results:
 - There are positive correlations between activity and volume in lava flow rates, SO2 emissions, and lava lake elevations. Inferred relationships were found specifically between high SO2 emissions and high lava lake elevations. There was possibly a relationship between new lava flow areas and additional SO2 emissions as well. These findings could be expanded in the future with a statistical analysis, or by comparing to data from other basaltic volcanoes.
 
-### Anticipated Challenges:
-- The lava flow data is GIS shapefiles, which is not a format we have not used before, so it could be challenging initially to figure out how to open and work with that data
-
 ### Contribution Statement:
 - Clara made the graphs of the 2016-2017 lava flow, the plume heights, and the lava lake elevations, and made the environment.yml file.
 - Lillian made the animation of the 2014-2016 lava flow, the graph of the SO2 emissions, the graph of both lava flows on the same space, and figured out how to put satellite images behind the 2016-17 lava flow graphs.
