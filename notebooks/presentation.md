@@ -22,7 +22,7 @@ For our the 2014-2016 lava flow data, due to the large amount of time snapshots 
 
 
 ## Limitations
-We focused on data within a range from about 2008-2018, with many of our datasets only covering a few years of time. This means that while the data from each phenomenon that we graphed overlaps in its timeframe with other graphs, not all of our data was taken over the sem timeframes, so we do not have a complete view of how each phenomenon was changing at every time.
+We focused on data within a range from about 2008-2018, with many of our datasets only covering a few years of time. This means that while the data from each phenomenon that we graphed overlaps in its timeframe with other graphs, not all of our data was taken over the same exact timeframes, so we do not have a complete view of how each phenomenon was changing at every time. 
 
 ## Lava Flows
 
