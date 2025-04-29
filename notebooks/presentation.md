@@ -16,9 +16,9 @@ Kīlauea Lava Flow Image [2]
 Kīlauea Location Map [3]
 
 ## Our Process
-We first found our data on the USGS data page for the Kīlauea volcano [4]. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, contextily, and geopandas to assist with our analysis and visualizations.
+We first found our data on the USGS data page for the Kīlauea volcano [4]. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, contextily, pyproj, and geopandas to assist with our analysis and visualizations.
 
-For our the 2014-2016 lave flow data, due to the large amount of time snapshots available (35), we used an animation to show the growth of the flow over time. From 2016-2017 there were few enough snapshots that we decided to show this progression as a series of graphs.
+For our the 2014-2016 lava flow data, due to the large amount of time snapshots available (35), we used an animation to show the growth of the flow over time. From 2016-2017 there were few enough snapshots that we decided to show this progression as a series of graphs.
 
 
 ## Limitations
@@ -44,15 +44,15 @@ The elevation of the volcanic plume above Kilauea was highly variable, although 
 ## Lava Lake Elevation
 ![Lava Lake Elevation](../figures/lava_lake_elev.png)
 
-From 2010 to 2018, the surface elevation of the lava lake on Kilauea (within the within Halemaʻumaʻu crater) was rising fairly steadily, until the volcano began to erupt in the 2018 lower East Rift Zone, which pulled a lot of the magma out from the volcano, and caused the lava lake to drain rapidly. The spike of lake elevation in 2015 lines up with a spike in SO2 emissions. 
+From 2010 to 2018, the surface elevation of the lava lake on Kilauea (within the within Halemaʻumaʻu crater) was rising fairly steadily, until the volcano began to erupt in the 2018 lower East Rift Zone, which pulled a lot of the magma out from the volcano, and caused the lava lake to drain rapidly. The spike of lake elevation in 2015 lines up with a spike in SO2 emissions at the same time. 
 
 ## SO2 Emissions
 ![SO2 Emissions](../figures/SO2_emissions.png)
 
-With these 7-day rolling averages we can see a wave-like pattern in SO2 emissions. These are measured in metric tonnes/day. The spikes may indicate heavier flow periods. When comparing with other data, we can see very steady levels of flow during high-flow times, such as June of 2016. There is a gap around January of 2017, which is interesting because another "leg" of lava flow formed around this time. 
+With these 7-day rolling averages we can see a wave-like pattern in SO2 emissions. These are measured in metric tonnes/day. The 7-day averages give a more readable graph, but may make data skewed higher. The spikes may indicate heavier flow periods. When comparing with other data, we can see very steady levels of flow during high-flow times, such as June of 2016. There is a gap around January of 2017, which is interesting because another "leg" of lava flow formed around this time. 
 
 ## Final Thoughts
-There are positive correlations between activity and volume in lava flow rates, SO2 emissions, and lava lake elevations. These findings could be expanded in the future with a statistical analysis. 
+There are positive correlations between activity and volume in lava flow rates, SO2 emissions, and lava lake elevations. Inferred relationships were found specifically between high SO2 emissions and high lava lake elevations. There was possibly a relationship between new lava flow areas and additional SO2 emissions as well. These findings could be expanded in the future with a statistical analysis, or by comparing to data from other basaltic volcanoes. 
 
 Potential areas for future research could be looking at data from other emissions related to Kīlauea as well as collecting more data over longer time periods to look at trends over longer time periods. It could also be interesting to look at potential correlations between activity of different volcanos in the Hawaii area.
 
