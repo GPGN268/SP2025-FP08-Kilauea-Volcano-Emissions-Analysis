@@ -40,8 +40,8 @@ Elevation of Lava Lake on Kīlauea:
 - [PyProj](https://pypi.org/project/pyproj/)
 
 ### Project methodology/approach:
-- We will analyze lava flows in relation to lava lake elevations, SO2 emissions, and plume heights at the Kīlauea volcano. 
-- We will compare this data numerically to lava plume/gas release volume for the same eruptions.
+- We graphed each dataset using different methods. For our the 2014-2016 lava flow data, due to the large amount of time snapshots available (35), we used an animation to show the growth of the flow over time. From 2016-2017 there were few enough snapshots that we decided to show this progression as a series of graphs. For the plume height, lava lake elevation, and SO2 emissions, we used line graphs. Then, we analyzed these graphs and looked for correlations and connections between them.
+
 
 ### Summary of Results:
 - There are positive correlations between activity and volume in lava flow rates, SO2 emissions, and lava lake elevations. Inferred relationships were found specifically between high SO2 emissions and high lava lake elevations. There was possibly a relationship between new lava flow areas and additional SO2 emissions as well. These findings could be expanded in the future with a statistical analysis, or by comparing to data from other basaltic volcanoes.
