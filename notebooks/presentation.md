@@ -36,6 +36,8 @@ With this animation, we see series of fast growth, alternating with time periods
 
 There was a lot of expansion of the lava flow from May to August 2016, and then it started slowing down its growth. This data has similar correlations as the animation above. 
 
+![Total Lava Flows](../figures/Lava_Flows_Total.png)
+
 ## Volcanic Plume Height
 ![Plume Height](../figures/plume_height.png)
 
