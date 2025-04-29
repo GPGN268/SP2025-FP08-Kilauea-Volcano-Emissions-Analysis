@@ -16,7 +16,7 @@ Kīlauea Lava Flow Image [2]
 Kīlauea Location Map [3]
 
 ## Our Process
-We first found our data on the USGS data page for the Kīlauea volcano [4]. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, and geopandas to assist with our analysis and visualizations.
+We first found our data on the USGS data page for the Kīlauea volcano [4]. The data for the lava flows was in shapefile format, while the rest was in csv format. We used numpy, matplotlib, pandas, contextily, and geopandas to assist with our analysis and visualizations.
 
 For our the 2014-2016 lave flow data, due to the large amount of time snapshots available (35), we used an animation to show the growth of the flow over time. From 2016-2017 there were few enough snapshots that we decided to show this progression as a series of graphs.
 
