@@ -5,21 +5,21 @@
 ---
 
 ### Summary:
-This project will analyze geohazards associated with the Kīlauea volcano. The analysis will specifically focus on lava-flow-induced hazards. 
+This project analyzes volcanic emissions and activity monitoring indices associated with the Kīlauea volcano in Hawaii. This includes lava flow rates and patterns, SO2 emissions, plume height, and lava.
 
 ### Background:
-Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems from Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano [1]. It most recently erupted in February 2025. Kīlauea may also be referred to as Volcano Number 332010. It reaches an peak elevation of 1222 m. 70% of the surface of the volcano is comprised of rock from lava flows less than 600 years old. Kīlauea is considered to be an intraplate volcano, and it sits on oceanic crust. 3,122 people live within 10 km of the peak, and 8,495 live within 30 km [2], and several hundred thousand people living less than 100 km from the peak. Ensuring the safety of this population is a driving factor for volcanic research. 
+Kīlauea is an active shield volcano on the island of Hawaii. It is one of the world's most active volcanoes. It stems from Mauna Loa, another large shield volcano in the area. It presents as a basaltic volcano [1]. It most recently erupted in February 2025. Kīlauea may also be referred to as Volcano Number 332010. It reaches a peak elevation of 1222 m. 70% of the volcano's surface is comprised of rock from lava flows that are less than 600 years old. Kīlauea is considered to be an intraplate volcano, and it sits on oceanic crust. 3,122 people live within 10 km of the peak, and 8,495 live within 30 km [2], and several hundred thousand people live less than 100 km from the peak. Ensuring the safety of this population is a driving factor for volcanic research. 
 
 ### Objective Question:
 How are lava flows, lava lakes, plume heights, and SO2 emissions related?
 
 ### Datasets used:
 
-Datasets with GIS shapefiles of lava flows at Kīlauea, can be analyzed with GeoPandas:
+Datasets with GIS shapefiles of lava flows at Kīlauea, analyzed with GeoPandas:
 - [June 2014 - June 2016](https://www.sciencebase.gov/catalog/item/5cdd9871e4b029273746360f)
 - [May 2016 - May 2017](https://www.sciencebase.gov/catalog/item/597230e4e4b0ec1a4885edc1)
 
-This dataset has volcanic plume data also from Kīlauea, formatted in csv files that are accessed with pandas: 
+This dataset has volcanic plume data also from Kīlauea, CSV files that are accessed with pandas: 
 - https://www.sciencebase.gov/catalog/item/6000a312d34e592d8671f57f
 
 Data from Kilauea relating to SO2 emissions: 
@@ -42,9 +42,6 @@ Elevation of Lava Lake on Kīlauea:
 
 ### Expected outcomes:
 - We expect that higher volumes of lava flow would be correlated with higher volumes of gas emissions and more/higher volumes of volcanic plumes.
-
-### Any other relevant information, images/tables, references, etc.:
-
 
 ### Anticipated Challenges:
 - The lava flow data is GIS shapefiles, which is not a format we have not used before, so it could be challenging initially to figure out how to open and work with that data
