@@ -48,8 +48,8 @@ Elevation of Lava Lake on Kīlauea:
 
 ### Contribution Statement:
 - Clara made the graphs of the 2016-2017 lava flow, the plume heights, and the lava lake elevations, and made the environment.yml file.
-- Lillian made the animation of the 2014-2016 lava flow, the graph of the SO2 emissions, the graph of both lava flows on the same space, and figured out how to put satellite images behind the 2016-17 lava flow graphs.
-- Both of us worked on writing the analysis in the presentation.md file and also writing the readme file.
+- Lillian made the animation of the 2014-2016 lava flow, the graph of the SO2 emissions, the graph of both lava flows on the same space, and overlaid satellite images behind the 2016-17 lava flow graphs.
+- Both of us worked on writing the analysis for the presentation.md file and also writing the README file.
 
 ### References:
 [1] [https://www.usgs.gov/volcanoes/kilauea](https://www.usgs.gov/volcanoes/kilauea)
